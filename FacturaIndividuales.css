@@ -162,17 +162,25 @@ body {
 }
 
 
-/* Pie de página */
+/* Estilos del footer */
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f4f7fc;
+    padding: 20px;
+    background-color: #f9fbff;
+    font-family: 'Arial', sans-serif;
     color: #333;
-    text-align: center;
-    font-size: 10px;
-    padding: 10px 20px;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-    line-height: 1.4;
+    font-size: 8px; /* Tamaño de fuente 8px */
+    line-height: 1; /* Espaciado entre líneas */
+    border-top: 1px solid #d0e2f1;
+}
+
+/* Primer párrafo (Cláusula informativa RGPD) */
+footer p:first-of-type {
+    text-align: justify; /* Justificado por los extremos */
+    margin: 0; /* Elimina márgenes innecesarios */
+}
+
+/* Segundo párrafo (Datos identificativos) */
+footer p:last-of-type {
+    text-align: center; /* Justificado solo a la izquierda */
+    margin-top: 10px; /* Espacio superior para separar del primer párrafo */
 }
