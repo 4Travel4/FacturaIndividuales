@@ -154,6 +154,12 @@ body {
     font-weight: bold;
 }
 
+.bank-info p {
+    margin: 2px 0; /* Reduce el espacio entre párrafos */
+    font-size: 12px; /* Reduce el tamaño de la fuente */
+    line-height: 1.2; /* Reduce la altura de línea */
+}
+
 
 /* Pie de página */
 footer {
