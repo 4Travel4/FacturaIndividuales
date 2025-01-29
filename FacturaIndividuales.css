@@ -155,7 +155,7 @@ body {
 }
 
 .bank-info p {
-    margin: 2px 0; /* Reduce el espacio entre párrafos */
+    text-align: left;
     font-size: 10px; /* Reduce el tamaño de la fuente */
     line-height: 0.50; /* Reduce la altura de línea */
 }
