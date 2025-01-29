@@ -156,8 +156,8 @@ body {
 
 .bank-info p {
     text-align: left;
-    font-size: 10px; /* Reduce el tamaño de la fuente */
-    line-height: 0.50; /* Reduce la altura de línea */
+    font-size: 12px;
+    line-height: 0.50;
 }
 
 
